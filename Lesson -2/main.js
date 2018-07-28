@@ -78,3 +78,27 @@ switch (a) {
     case 15:
         console.log("15");
 }
+
+// 5) Реализовать основные 4 арифметические операции в виде функций с двумя параметрами. 
+// Обязательно использовать оператор return.
+
+
+function sum(x, y) {
+    return x + y;
+}
+alert(sum(12, 13));
+
+function raz(x, y) {
+    return x - y;
+}
+alert(raz(17, 3));
+
+function umn(x, y) {
+    return x * y;
+}
+alert(umn(5, 5));
+
+function del(x, y) {
+    return x / y;
+}
+alert(del(9, 3));
