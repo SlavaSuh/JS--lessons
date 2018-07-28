@@ -26,9 +26,19 @@ alert(x); //5
 // ноль можно считать положительным числом.
 
 
-var a = 3;
-var b = 5;
 
-function taskThird(a, b) {
-    
+function taskThird(a = 14, b = -4) {
+    if (a >= 0 && b >= 0) {
+        return a - b;
+    }
+    else if (a < 0 && b < 0) {
+        return a * b;
+    }
+    else if ((a >= 0 && b < 0) || (a < 0 && b >= 0)) {
+        return a + b
+    }
 }
+
+alert(taskThird());
+
+
