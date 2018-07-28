@@ -44,7 +44,7 @@ alert(taskThird());
 
 // 4) Присвоить переменной а значение в промежутке [0..15]. С помощью оператора switch организовать вывод чисел от a до 15.
 var a = parseInt(prompt("Введите а :"));
-if (a >=0 && a <=15) { 
+if (a >= 0 && a <= 15) { 
     switch (a) {
         case 0:
             console.log("0");
@@ -132,3 +132,7 @@ function mathOperation(arg1, arg2, operation) {
 alert(mathOperation(10, 5, "-"));
 
 // 7) * Сравнить null и 0. Попробуйте объяснить результат.
+
+alert(0 == null); //false . null равен либо самому себе , либо undefined.
+//alert(null == null);// true
+//alert(null == undefined); //true
