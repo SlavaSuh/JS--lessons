@@ -102,3 +102,30 @@ function del(x, y) {
     return x / y;
 }
 alert(del(9, 3));
+
+// 6) Реализовать функцию с тремя параметрами: 
+// function mathOperation(arg1, arg2, operation), где arg1, arg2 – значения аргументов, 
+// operation – строка с названием операции. В зависимости от переданного значения
+//  операции выполнить одну из арифметических операций (использовать функции из пункта 3) 
+//  и вернуть полученное значение (использовать switch).
+
+function mathOperation(arg1, arg2, operation) {
+    switch (operation) {
+        case "+":
+            return arg1 + arg2;
+            break;
+        case "-":
+            return arg1 - arg2;
+            break;
+        case "*":
+            return arg1 * arg2;
+            break;
+        case "/":
+            return arg1 / arg2;
+            break;
+    }
+}
+
+alert(mathOperation(10, 5, "-"));
+
+// 7) * Сравнить null и 0. Попробуйте объяснить результат.
