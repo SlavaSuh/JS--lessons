@@ -115,21 +115,21 @@ alert(del(9, 3));
 function mathOperation(arg1, arg2, operation) {
     switch (operation) {
         case "+":
-            return arg1 + arg2;
+            alert(sum(arg1, arg2)); 
             break;
         case "-":
-            return arg1 - arg2;
+            alert(raz(arg1, arg2));
             break;
         case "*":
-            return arg1 * arg2;
+            alert(umn(arg1, arg2));
             break;
         case "/":
-            return arg1 / arg2;
+            alert(del(arg1, arg2));
             break;
     }
 }
 
-alert(mathOperation(10, 5, "-"));
+mathOperation(10, 5, "*");
 
 // 7) * Сравнить null и 0. Попробуйте объяснить результат.
 
