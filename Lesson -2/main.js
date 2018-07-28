@@ -136,3 +136,16 @@ alert(mathOperation(10, 5, "-"));
 alert(0 == null); //false . null равен либо самому себе , либо undefined.
 //alert(null == null);// true
 //alert(null == undefined); //true
+
+
+// 8)* С помощью рекурсии организовать функцию возведения числа в степень. 
+// Формат: function power(val, pow), где val – заданное число, pow – степень.
+
+function power(val, pow) {
+    if (pow == 1) {
+        return val;
+    } 
+    return val * power(val, pow -1);
+    
+}
+alert(power(5, 5));
