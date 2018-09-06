@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bca94f48-fcbc-4233-812d-b2872034fb19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../task2/gameCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/gameCode.js" afterDir="false" />
+    <list default="true" id="c4697468-aff0-4c85-bf9d-06ef81b67960" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/gameCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/gameCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task2/gameCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/gameCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/gameCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/gameCode.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,37 +17,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1016517460">
+    <session id="-1190506424">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.4" value="3" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="js" value="4" />
+          <entry key="js" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="4" />
+          <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="208" />
-          <entry key="js" value="1854" />
+          <entry key="js" value="2060" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="208" />
-          <entry key="JavaScript" value="1854" />
+          <entry key="JavaScript" value="2060" />
         </counts>
       </usages-collector>
     </session>
@@ -55,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -66,6 +67,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="88" selection-start-column="88" selection-end-column="88" />
+              <folding>
+                <element signature="n#!!block;n#isAnswer#0" />
+                <element signature="n#!!block;n#scoreCounter#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+            <state relative-caret-position="867">
+              <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -87,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/game.html" />
         <option value="$PROJECT_DIR$/text.js" />
         <option value="$PROJECT_DIR$/gameCode.js" />
       </list>
@@ -114,9 +118,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task 3.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,49 +135,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="gameCode.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="gameCode.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.gameCode.js" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bca94f48-fcbc-4233-812d-b2872034fb19" name="Default Changelist" comment="" />
-      <created>1536166076949</created>
+      <changelist id="c4697468-aff0-4c85-bf9d-06ef81b67960" name="Default Changelist" comment="" />
+      <created>1536233659064</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536166076949</updated>
-      <workItem from="1536166078562" duration="4957000" />
-      <workItem from="1536173535111" duration="1550000" />
-      <workItem from="1536178189430" duration="134000" />
-      <workItem from="1536224949181" duration="7609000" />
-      <workItem from="1536233522677" duration="136000" />
-      <workItem from="1536234149119" duration="226000" />
-      <workItem from="1536246734627" duration="58000" />
+      <updated>1536233659064</updated>
+      <workItem from="1536233660619" duration="10863000" />
+      <workItem from="1536245600525" duration="119000" />
+      <workItem from="1536245832884" duration="6000" />
+      <workItem from="1536245912266" duration="759000" />
+      <workItem from="1536246793902" duration="101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14670000" />
+    <option name="totallyTimeSpent" value="11848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.47117296" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47115386" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -192,17 +185,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/game.html">
+    <entry file="file://$PROJECT_DIR$/text.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="867">
+          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text.js">
+    <entry file="file://$PROJECT_DIR$/game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -210,6 +203,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="88" selection-start-column="88" selection-end-column="88" />
+          <folding>
+            <element signature="n#!!block;n#isAnswer#0" />
+            <element signature="n#!!block;n#scoreCounter#0" />
+          </folding>
         </state>
       </provider>
     </entry>
