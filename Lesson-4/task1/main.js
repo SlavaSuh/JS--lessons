@@ -12,9 +12,9 @@ function tNum(num) {
         return object;
     } else {
         for (var i = 0; i < String(num).length; i++) {
-            object.sotni = String(num).split("")[i];
-            object.desiatki = String(num).split("")[i + 1];
-            object.edinici = String(num).split("")[i + 2];
+            object.units = String(num).split("")[i + 2];
+            object.dozens = String(num).split("")[i + 1];
+            object.hundreds = String(num).split("")[i];
             break;
         }
         return object;
