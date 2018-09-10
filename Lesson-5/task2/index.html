@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .white {
+            background: #E2C58B;
+            width: 60px;
+            height: 60px;
+        }
+        .black {
+            background: #603A1E;
+            width: 60px;
+            height: 60px;
+        }
+        .chessSquare {
+            width: 60px;
+            height: 60px;
+            font-weight: 700;
+            font-style: italic;
+            text-align: center;
+        }
+        .rotate {
+            transform: rotate(180deg);
+            width: 60px;
+            height: 60px;
+            font-weight: 700;
+            font-style: italic;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var tableChess = document.createElement("table");
+        tableChess.style.margin = "0 auto"
+        document.body.appendChild(tableChess);
+
+        var arrayOfLetters = ["", "A", "B", "C", "D", "E", "F", "G", "H", ""];
+        var arrayOfNumbers = ["", 8, 7, 6, 5, 4, 3, 2, 1, ""];
+        var arrayOfFigures = ["Л", "K", "С", "Ф", "Kр", "С", "K", "Л"];
+
+        var c = 0;
+
+        for (var i = 1; i <= 10; i++) {
+            var tr = document.createElement("tr");
+            tableChess.appendChild(tr);
+
+            var td;
+            
+
+            for (j = 0; j < 10; j++) {
+                td = document.createElement("td");
+                if (i == 1 || i == 10) {
+                    td.className = "chessSquare";
+                    td.innerText = arrayOfLetters[j];
+                }
+                if (j == 0  || j == 9) {
+                    td.className = "chessSquare";
+                    td.innerText = arrayOfNumbers[i - 1];
+                }
+                if (i > 1 && i < 10 && j > 0 && j < 9) {
+                    if (c % 2 == 0) {
+                        td.className = "white";
+                    } else {
+                        td.className = "black";
+                    }
+
+                    if (i == 3 || i == 8) {
+                        td.innerText = "П";
+                        td.style.textAlign = "center";
+                    }
+
+                    if (i == 2 || i == 9) {
+                        td.innerText = arrayOfFigures[j - 1];
+                        td.style.textAlign = "center";
+                    }
+                }
+                
+                if (i == 1 || j == 9) {
+                    td.className = "rotate";
+                }
+
+                if (i == 2 || i == 3) {
+                    td.style.transform = "rotate(180deg)";
+                }
+                
+
+                tr.appendChild(td);
+                c++;
+            }
+            c++
+        }
+
+    </script>
+</body>
+</html>
